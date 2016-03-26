@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.1)
+    concurrent-ruby-edge (0.2.1)
+      concurrent-ruby (~> 1.0.1)
+    concurrent-ruby-ext (1.0.1)
+      concurrent-ruby (~> 1.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  concurrent-ruby
+  concurrent-ruby-edge
+  concurrent-ruby-ext
