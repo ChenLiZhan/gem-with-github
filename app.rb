@@ -33,7 +33,7 @@ CSV.foreach('./rubygems_list.csv') do |gem_name|
       if !repo_user.empty? && !repo_name.empty?
         # lock.synchronize {
           gem_list << {
-            'gem_name'    => gem_name,
+            'gem_name'    => gem_name[0],
             'repo_user'   => repo_user,
             'repo_name'   => repo_name
           }
